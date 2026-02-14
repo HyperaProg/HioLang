@@ -1,0 +1,4 @@
+cargo:rustc-link-search=native=examples/libs
+cargo:rustc-link-lib=static=string
+cargo:rustc-link-lib=static=math
+cargo:rustc-link-lib=static=net

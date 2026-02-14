@@ -1,0 +1,11 @@
+[package]
+name = "hiolang"
+version = "0.1.0"
+edition = "2021"
+build = "build.rs"
+
+[[bin]]
+name = "hiolang"
+path = "src/main.rs"
+
+[dependencies]
